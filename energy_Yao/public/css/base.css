@@ -1,0 +1,169 @@
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+a:active{
+    text-decoration: none;
+}
+a:visited{
+    text-decoration: none;
+}
+body,ul,li,p,div,h4,i,em,b,span,a {
+    font-size: 14px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    font-style: normal;
+    font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", Tahoma, "Hiragino Sans GB", STHeiti, "Microsoft YaHei";
+}
+select,input,textarea {
+    outline: none;box-sizing:border-box;
+    padding: 0;
+    margin:0;
+    border: none;
+    background: none;
+    outline: 0;
+}
+fieldset{
+    border: none;
+}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td {
+    margin:0; 
+    padding:0; 
+}
+td,th,caption {
+    font-size:14px; 
+}
+h1, h2, h3, h4, h5, h6 { 
+    font-weight:normal;
+}
+address, caption, cite, code, dfn, em, strong, th, var { 
+    font-style:normal; 
+    font-weight:normal;
+}
+a {
+    text-decoration:none; 
+}
+img { 
+    border:none; 
+    display: block;
+}
+ol,ul,li { 
+    list-style:none; 
+}
+table { 
+    border-collapse:collapse; 
+}
+.clearfix:after {
+    content: ""; 
+    display: block; 
+    height:0; 
+    clear:both; 
+    visibility: hidden;
+}
+.clearfix { 
+    zoom:1; 
+}
+html,body{
+    height:100%;
+}
+.dn{
+    display: none;
+}
+.db{
+    display: block;
+}
+.ovh{
+    overflow: hidden;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.tc{
+    text-align: center;
+}
+.tl{
+    text-align: left;
+}
+.tr{
+    text-align: right;
+}
+.cur_pot{
+    cursor: pointer;
+}
+.ovy{
+    overflow-y:hidden; 
+}
+.all{
+    width:100%;
+    position: relative;
+    height:100%;
+}
+.ml5{
+    margin-left: 5%;
+}
+.ml20{
+    margin-left: 20px;
+}
+.mt10{
+    margin-top: 10px;
+}
+.mt20{
+    margin-top: 20px;
+}
+.mr20{
+    margin-right: 20px;
+}
+.pl{
+    padding-left: 20px;
+}
+.fz14{
+    font-size: 14px;
+}
+.fz16{
+    font-size: 16px;
+}
+.fz18{
+    font-size: 18px;
+}
+.fz20{
+    font-size: 20px;
+}
+.fz22{
+    font-size: 22px;
+}
+.fz24{
+    font-size: 24px;
+}
+.fz26{
+    font-size: 26px;
+}
+.fz28{
+    font-size: 28px;
+}
+.fz30{
+    font-size: 30px;
+}
+@media screen and (min-width: 768px) {
+    body {
+        width:780px;
+        margin:0 auto;
+    }
+}
+.over_lay{
+    position: absolute;
+    z-index: 1;
+    right:0;
+    top:0;
+}
+.score_back{
+    background: -webkit-linear-gradient(orangered, darkorange);
+    background: -o-linear-gradient(orangered, darkorange);
+    background: -moz-linear-gradient(orangered, darkorange);
+    background: linear-gradient(orangered, darkorange);
+}

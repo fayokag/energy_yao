@@ -1,0 +1,162 @@
+/* list */
+/* swipe */
+.swipe {
+    overflow: hidden;
+    visibility: visible;
+    position: relative;
+}
+.swipe-wrap {
+    overflow: hidden;
+    position: relative;
+}
+.swipe-wrap > figure {
+    float: left;
+    width: 50%;
+    display:inline;
+    position: relative;
+    margin-top: 20px;
+}
+.wrap{
+    width:100%;
+    height:100%;
+    display:inline;
+    margin-top: 10px;
+}
+.img-responsive{
+    display: block;
+    margin:0 auto;
+}
+.tao{
+    position: relative;
+    width: 50%;
+    padding-bottom: 20px;
+}
+#position {
+    width: 100%;
+    margin:0 auto;
+    padding: 0;
+    position: absolute;
+    bottom:0;
+    z-index: 8888;
+    text-align: center;
+}
+#position li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    background: #d1d1d1;
+    margin: 0 2px;
+}
+#position li.on {
+    background-color: #d64036;
+}
+.product{
+    height:100%;
+}
+.pro_info{
+    position: relative;
+    width: 50%;
+    background-color: orange;
+    height:100%;
+}
+.pro_new{
+    margin-right: 20px;
+}
+.pro_top{
+    margin-top: 20px;
+}
+.pro_all{
+    line-height: 20px;
+    color:#fff;
+}
+.pro_all p{
+    padding-left: 20px;
+}
+.car_join{
+    background-color: red;
+    padding: 20px 0;
+}
+.car_watch{
+    padding: 20px 0;
+}
+/* END */
+
+/* car */
+.all header{
+    width:100%;
+    background-color:orange;
+    padding: 20px 0;
+    color:#fff;
+    position: relative;
+}
+.all header span{
+    position: absolute;
+    left:20px;
+    top:30%;
+    font-size: 20px;
+}
+.car_show{
+    margin-top: 10px;
+    padding: 10px 0;
+    background-color: #fff;
+    width:100%;
+}
+.car_img{
+    width: 25%;
+    margin-left: 5%;
+}
+.car_right{
+    margin-left: 2%;
+    width:63%;
+    line-height: 20px;
+}
+.car_over{
+    width: 100px;
+    font-size: 20px;
+    padding: 10px 0;
+    background-color: red;
+    color:#fff;
+}
+/* END */
+
+/* suc */
+.suc_top{
+    width:50%;
+    margin:0 auto;
+    padding: 10% 0;
+    position: relative;
+}
+.suc_radius{
+    border-radius: 50%;
+    padding:20px;
+    border:30px solid orange;
+    width:150px;
+    height:150px;
+    line-height: 40px;
+}
+.suc_orange{
+    color:orange;
+    height:40px;
+}
+.suc_elt{
+    color: #d4d4d4;
+    height:40px;
+}
+.suc_score{
+    color: #d4d4d4;
+    width:100px;
+    margin:0 auto;
+    height:40px;
+}
+/* END */
+
+
+
+
+
+
+
+
+
+
