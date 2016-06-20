@@ -1,0 +1,31 @@
+.nav_index{
+    position: absolute;
+    bottom:5%;
+    left:10%;
+    width:80%;
+}
+.nav_index a{
+    width:30%;
+    display: block;
+}
+.logo_index{
+    width:100%;
+}
+.nav_index img{
+    margin:0 auto;
+}
+.bg_index{
+    background-color: #f7f7f7;
+}
+@media screen and (min-width: 768px) {
+    .logo_index img{
+        width:401px;
+        height:463px;
+        margin:0 auto;
+    }
+}
+@media screen and (max-width: 768px) {
+    img {
+        width:100%;
+    }
+}
